@@ -1,0 +1,20 @@
+[
+    {
+        "proceso":"signUpApi",
+        "casoPrueba":"Validacion de Usuario Existente",
+        "passwordUser":"2024QA_Pwd!",
+        "errorMessage":"This user already exist."
+    },
+    {
+        "proceso":"loginApi",
+        "casoPrueba":"Usuario y password incorrecto",
+        "passwordUser":"noPassword",
+        "errorMessage":"Wrong password."
+    },
+    {
+        "proceso":"loginApi",
+        "casoPrueba":"Validacion de Login Correcto",
+        "passwordUser":"2024QA_Pwd!",
+        "errorMessage":"NoError"
+    }
+]

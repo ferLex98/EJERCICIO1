@@ -1,0 +1,12 @@
+{
+    "nombre":"#name",
+    "pais":"#country",
+    "cuidad":"#city",
+    "tarjeta":"#card",
+    "mes":"#month",
+    "anio":"#year",
+    "btnCerrar":"#orderModal > .modal-dialog > .modal-content > .modal-footer > .btn-secondary",
+    "btnComprar":"#orderModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary",
+    "btnPlaceOrder": ".col-lg-1 > .btn",
+    "btnConfirmarCompra":".confirm"
+}

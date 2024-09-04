@@ -1,0 +1,21 @@
+                                    HALLAZGOS
+Ejercicio 1:
+- Al visualizar el detalle del producto, no se identifica un boton que permita regresar al listado de productos.
+- Al eliminar un producto del carrito de compras se refresca la pagina y por un instante desaparecen el resto de productos agregados.
+- La pagina permite realizar compras aunque el carrito se encuentre en 0.
+- Una vez finalizada la compra, si da clic en el boton: "Cerrar", aun se queda a alerta de compra activa.
+- Una vez finalizada la compra, si da clic en el boton: "Purchase", el id de la compra sigue aumentando.
+- El carrito de compras no se limpia despues de hacer generado una compra, en caso de presionar la tecla ESC de la alerta.
+- El formulario de compra, carece de validación para caracteres especiales (nombre, # tarjeta), etc.
+- El formulario de compra permite cambiar la informacion del cliente, haciendo un scroll o zoom - a la pantalla
+
+                                    CONCLUSIONES
+- La pagina no tiene un debido control de los productos que fueron o no agregados al carrito. En caso de agregar mas productos
+en vez se sumar la cantidad por cada item, genera una nueva linea lo que visualmente no es agradable.
+
+- No existe la funcionalidad de bloquear los cmapos del formulario una vez que se haya completado la compra.
+
+- Al no tener validacion de datos dentro del formulario de compras, la pagina permite ingresar informacion dummy en la base, tambien,
+al carecer de un control de una compra finalizada, permite duplicar informacion.
+
+- No se evidencia bloqueo del boton: "Purchase" cuando se haya finalizado una compra

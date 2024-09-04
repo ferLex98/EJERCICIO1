@@ -1,0 +1,4 @@
+{
+    "btnRegistro":"#signin2",
+    "btnFormSignIn":"#signInModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary"
+}
